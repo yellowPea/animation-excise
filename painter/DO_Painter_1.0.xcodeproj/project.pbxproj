@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79CCA95F1D3CFC680027BD08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA94C1D3CFC680027BD08 /* ViewController.m */; };
+		79CCA9601D3CFC680027BD08 /* line_width.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA94E1D3CFC680027BD08 /* line_width.png */; };
+		79CCA9611D3CFC680027BD08 /* paint_palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA94F1D3CFC680027BD08 /* paint_palette.png */; };
+		79CCA9621D3CFC680027BD08 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA9501D3CFC680027BD08 /* pencil.png */; };
+		79CCA9661D3CFC680027BD08 /* Do_PaintBord.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA9581D3CFC680027BD08 /* Do_PaintBord.m */; };
+		79CCA9671D3CFC680027BD08 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA95A1D3CFC680027BD08 /* UIImage+Crop.m */; };
+		79CCA9681D3CFC680027BD08 /* LeftToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA95D1D3CFC680027BD08 /* LeftToolView.m */; };
+		79CCA9691D3CFC680027BD08 /* LeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CCA95E1D3CFC680027BD08 /* LeftView.xib */; };
+		79CCA96D1D3CFD6C0027BD08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CCA96B1D3CFD6C0027BD08 /* AppDelegate.m */; };
+		79F6EA951D309832000BCA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6EA941D309832000BCA2E /* main.m */; };
+		79F6EA9E1D309833000BCA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F6EA9C1D309833000BCA2E /* Main.storyboard */; };
+		79F6EAA01D309833000BCA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F6EA9F1D309833000BCA2E /* Assets.xcassets */; };
+		79F6EAA31D309833000BCA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F6EAA11D309833000BCA2E /* LaunchScreen.storyboard */; };
+		79F6EAAE1D309833000BCA2E /* DO_Painter_1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6EAAD1D309833000BCA2E /* DO_Painter_1_0Tests.m */; };
+		79F6EAB91D309833000BCA2E /* DO_Painter_1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F6EAB81D309833000BCA2E /* DO_Painter_1_0UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79F6EAAA1D309833000BCA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F6EA881D309832000BCA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F6EA8F1D309832000BCA2E;
+			remoteInfo = DO_Painter_1.0;
+		};
+		79F6EAB51D309833000BCA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79F6EA881D309832000BCA2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F6EA8F1D309832000BCA2E;
+			remoteInfo = DO_Painter_1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79CCA94B1D3CFC680027BD08 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79CCA94C1D3CFC680027BD08 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79CCA94E1D3CFC680027BD08 /* line_width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_width.png; sourceTree = "<group>"; };
+		79CCA94F1D3CFC680027BD08 /* paint_palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paint_palette.png; sourceTree = "<group>"; };
+		79CCA9501D3CFC680027BD08 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		79CCA9571D3CFC680027BD08 /* Do_PaintBord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Do_PaintBord.h; sourceTree = "<group>"; };
+		79CCA9581D3CFC680027BD08 /* Do_PaintBord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Do_PaintBord.m; sourceTree = "<group>"; };
+		79CCA9591D3CFC680027BD08 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		79CCA95A1D3CFC680027BD08 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		79CCA95C1D3CFC680027BD08 /* LeftToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftToolView.h; sourceTree = "<group>"; };
+		79CCA95D1D3CFC680027BD08 /* LeftToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftToolView.m; sourceTree = "<group>"; };
+		79CCA95E1D3CFC680027BD08 /* LeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftView.xib; sourceTree = "<group>"; };
+		79CCA96A1D3CFD6C0027BD08 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79CCA96B1D3CFD6C0027BD08 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79CCA96C1D3CFD6C0027BD08 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F6EA901D309832000BCA2E /* DO_Painter_1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DO_Painter_1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F6EA941D309832000BCA2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F6EA9D1D309833000BCA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79F6EA9F1D309833000BCA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79F6EAA21D309833000BCA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79F6EAA91D309833000BCA2E /* DO_Painter_1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DO_Painter_1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F6EAAD1D309833000BCA2E /* DO_Painter_1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DO_Painter_1_0Tests.m; sourceTree = "<group>"; };
+		79F6EAAF1D309833000BCA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F6EAB41D309833000BCA2E /* DO_Painter_1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DO_Painter_1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F6EAB81D309833000BCA2E /* DO_Painter_1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DO_Painter_1_0UITests.m; sourceTree = "<group>"; };
+		79F6EABA1D309833000BCA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F6EA8D1D309832000BCA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F6EAA61D309833000BCA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F6EAB11D309833000BCA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79CCA94A1D3CFC680027BD08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79CCA94B1D3CFC680027BD08 /* ViewController.h */,
+				79CCA94C1D3CFC680027BD08 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79CCA94D1D3CFC680027BD08 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				79CCA94E1D3CFC680027BD08 /* line_width.png */,
+				79CCA94F1D3CFC680027BD08 /* paint_palette.png */,
+				79CCA9501D3CFC680027BD08 /* pencil.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		79CCA9561D3CFC680027BD08 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				79CCA9571D3CFC680027BD08 /* Do_PaintBord.h */,
+				79CCA9581D3CFC680027BD08 /* Do_PaintBord.m */,
+				79CCA9591D3CFC680027BD08 /* UIImage+Crop.h */,
+				79CCA95A1D3CFC680027BD08 /* UIImage+Crop.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		79CCA95B1D3CFC680027BD08 /* ToolView */ = {
+			isa = PBXGroup;
+			children = (
+				79CCA95C1D3CFC680027BD08 /* LeftToolView.h */,
+				79CCA95D1D3CFC680027BD08 /* LeftToolView.m */,
+				79CCA95E1D3CFC680027BD08 /* LeftView.xib */,
+			);
+			path = ToolView;
+			sourceTree = "<group>";
+		};
+		79F6EA871D309832000BCA2E = {
+			isa = PBXGroup;
+			children = (
+				79F6EA921D309832000BCA2E /* DO_Painter_1.0 */,
+				79F6EAAC1D309833000BCA2E /* DO_Painter_1.0Tests */,
+				79F6EAB71D309833000BCA2E /* DO_Painter_1.0UITests */,
+				79F6EA911D309832000BCA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F6EA911D309832000BCA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F6EA901D309832000BCA2E /* DO_Painter_1.0.app */,
+				79F6EAA91D309833000BCA2E /* DO_Painter_1.0Tests.xctest */,
+				79F6EAB41D309833000BCA2E /* DO_Painter_1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F6EA921D309832000BCA2E /* DO_Painter_1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				79CCA96A1D3CFD6C0027BD08 /* AppDelegate.h */,
+				79CCA96B1D3CFD6C0027BD08 /* AppDelegate.m */,
+				79CCA94A1D3CFC680027BD08 /* Controller */,
+				79CCA94D1D3CFC680027BD08 /* images */,
+				79CCA9561D3CFC680027BD08 /* Tools */,
+				79CCA95B1D3CFC680027BD08 /* ToolView */,
+				79F6EA9C1D309833000BCA2E /* Main.storyboard */,
+				79F6EA9F1D309833000BCA2E /* Assets.xcassets */,
+				79F6EAA11D309833000BCA2E /* LaunchScreen.storyboard */,
+				79CCA96C1D3CFD6C0027BD08 /* Info.plist */,
+				79F6EA931D309832000BCA2E /* Supporting Files */,
+			);
+			path = DO_Painter_1.0;
+			sourceTree = "<group>";
+		};
+		79F6EA931D309832000BCA2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F6EA941D309832000BCA2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F6EAAC1D309833000BCA2E /* DO_Painter_1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79F6EAAD1D309833000BCA2E /* DO_Painter_1_0Tests.m */,
+				79F6EAAF1D309833000BCA2E /* Info.plist */,
+			);
+			path = DO_Painter_1.0Tests;
+			sourceTree = "<group>";
+		};
+		79F6EAB71D309833000BCA2E /* DO_Painter_1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				79F6EAB81D309833000BCA2E /* DO_Painter_1_0UITests.m */,
+				79F6EABA1D309833000BCA2E /* Info.plist */,
+			);
+			path = DO_Painter_1.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F6EA8F1D309832000BCA2E /* DO_Painter_1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F6EABD1D309833000BCA2E /* Build configuration list for PBXNativeTarget "DO_Painter_1.0" */;
+			buildPhases = (
+				79F6EA8C1D309832000BCA2E /* Sources */,
+				79F6EA8D1D309832000BCA2E /* Frameworks */,
+				79F6EA8E1D309832000BCA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DO_Painter_1.0;
+			productName = DO_Painter_1.0;
+			productReference = 79F6EA901D309832000BCA2E /* DO_Painter_1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79F6EAA81D309833000BCA2E /* DO_Painter_1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F6EAC01D309833000BCA2E /* Build configuration list for PBXNativeTarget "DO_Painter_1.0Tests" */;
+			buildPhases = (
+				79F6EAA51D309833000BCA2E /* Sources */,
+				79F6EAA61D309833000BCA2E /* Frameworks */,
+				79F6EAA71D309833000BCA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F6EAAB1D309833000BCA2E /* PBXTargetDependency */,
+			);
+			name = DO_Painter_1.0Tests;
+			productName = DO_Painter_1.0Tests;
+			productReference = 79F6EAA91D309833000BCA2E /* DO_Painter_1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79F6EAB31D309833000BCA2E /* DO_Painter_1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F6EAC31D309833000BCA2E /* Build configuration list for PBXNativeTarget "DO_Painter_1.0UITests" */;
+			buildPhases = (
+				79F6EAB01D309833000BCA2E /* Sources */,
+				79F6EAB11D309833000BCA2E /* Frameworks */,
+				79F6EAB21D309833000BCA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F6EAB61D309833000BCA2E /* PBXTargetDependency */,
+			);
+			name = DO_Painter_1.0UITests;
+			productName = DO_Painter_1.0UITests;
+			productReference = 79F6EAB41D309833000BCA2E /* DO_Painter_1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F6EA881D309832000BCA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dou;
+				TargetAttributes = {
+					79F6EA8F1D309832000BCA2E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					79F6EAA81D309833000BCA2E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 79F6EA8F1D309832000BCA2E;
+					};
+					79F6EAB31D309833000BCA2E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 79F6EA8F1D309832000BCA2E;
+					};
+				};
+			};
+			buildConfigurationList = 79F6EA8B1D309832000BCA2E /* Build configuration list for PBXProject "DO_Painter_1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79F6EA871D309832000BCA2E;
+			productRefGroup = 79F6EA911D309832000BCA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F6EA8F1D309832000BCA2E /* DO_Painter_1.0 */,
+				79F6EAA81D309833000BCA2E /* DO_Painter_1.0Tests */,
+				79F6EAB31D309833000BCA2E /* DO_Painter_1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F6EA8E1D309832000BCA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CCA9621D3CFC680027BD08 /* pencil.png in Resources */,
+				79CCA9601D3CFC680027BD08 /* line_width.png in Resources */,
+				79F6EAA31D309833000BCA2E /* LaunchScreen.storyboard in Resources */,
+				79CCA9691D3CFC680027BD08 /* LeftView.xib in Resources */,
+				79F6EAA01D309833000BCA2E /* Assets.xcassets in Resources */,
+				79CCA9611D3CFC680027BD08 /* paint_palette.png in Resources */,
+				79F6EA9E1D309833000BCA2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F6EAA71D309833000BCA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F6EAB21D309833000BCA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F6EA8C1D309832000BCA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CCA95F1D3CFC680027BD08 /* ViewController.m in Sources */,
+				79CCA9681D3CFC680027BD08 /* LeftToolView.m in Sources */,
+				79CCA96D1D3CFD6C0027BD08 /* AppDelegate.m in Sources */,
+				79F6EA951D309832000BCA2E /* main.m in Sources */,
+				79CCA9661D3CFC680027BD08 /* Do_PaintBord.m in Sources */,
+				79CCA9671D3CFC680027BD08 /* UIImage+Crop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F6EAA51D309833000BCA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F6EAAE1D309833000BCA2E /* DO_Painter_1_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F6EAB01D309833000BCA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F6EAB91D309833000BCA2E /* DO_Painter_1_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79F6EAAB1D309833000BCA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F6EA8F1D309832000BCA2E /* DO_Painter_1.0 */;
+			targetProxy = 79F6EAAA1D309833000BCA2E /* PBXContainerItemProxy */;
+		};
+		79F6EAB61D309833000BCA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79F6EA8F1D309832000BCA2E /* DO_Painter_1.0 */;
+			targetProxy = 79F6EAB51D309833000BCA2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79F6EA9C1D309833000BCA2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F6EA9D1D309833000BCA2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79F6EAA11D309833000BCA2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F6EAA21D309833000BCA2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79F6EABB1D309833000BCA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79F6EABC1D309833000BCA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79F6EABE1D309833000BCA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DO_Painter_1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dou.DO-Painter-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79F6EABF1D309833000BCA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DO_Painter_1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dou.DO-Painter-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79F6EAC11D309833000BCA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DO_Painter_1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dou.DO-Painter-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DO_Painter_1.0.app/DO_Painter_1.0";
+			};
+			name = Debug;
+		};
+		79F6EAC21D309833000BCA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DO_Painter_1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dou.DO-Painter-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DO_Painter_1.0.app/DO_Painter_1.0";
+			};
+			name = Release;
+		};
+		79F6EAC41D309833000BCA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DO_Painter_1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dou.DO-Painter-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DO_Painter_1.0;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79F6EAC51D309833000BCA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DO_Painter_1.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dou.DO-Painter-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DO_Painter_1.0;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F6EA8B1D309832000BCA2E /* Build configuration list for PBXProject "DO_Painter_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F6EABB1D309833000BCA2E /* Debug */,
+				79F6EABC1D309833000BCA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F6EABD1D309833000BCA2E /* Build configuration list for PBXNativeTarget "DO_Painter_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F6EABE1D309833000BCA2E /* Debug */,
+				79F6EABF1D309833000BCA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F6EAC01D309833000BCA2E /* Build configuration list for PBXNativeTarget "DO_Painter_1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F6EAC11D309833000BCA2E /* Debug */,
+				79F6EAC21D309833000BCA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F6EAC31D309833000BCA2E /* Build configuration list for PBXNativeTarget "DO_Painter_1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F6EAC41D309833000BCA2E /* Debug */,
+				79F6EAC51D309833000BCA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F6EA881D309832000BCA2E /* Project object */;
+}
